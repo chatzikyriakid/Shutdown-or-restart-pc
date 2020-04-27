@@ -19,11 +19,6 @@ def restart():
         playsound(r'C:\Users\Beast\Documents\Python Scripts\Shutdown or restart pc with timer\beep.wav')
         os.system("shutdown /r /t 1")
 
-
-def convert_to_secs(hours, mins, secs):
-    return int(hours) * 3600 + int(mins) * 60 + int(secs)
-
-
 # initialize window
 window = Tk()
 window.iconbitmap(r'C:\Users\Beast\Documents\Python_Scripts\Shutdown_or_restart_pc_with_timer\unnamed.ico')
